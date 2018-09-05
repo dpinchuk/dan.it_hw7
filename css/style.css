@@ -1,0 +1,260 @@
+/*Initialization space*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Accessory classes*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.section-header {
+    color: #333333;
+    font-size: 22px;/
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.section-paragraph {
+    color: #4d4943;
+    font-size: 14px;/
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.section-line-short {
+    background-color: #f1ad1d;
+    color: #f1ad1d;
+    width: 60px;
+    height: 3px;
+    border: none;
+}
+
+.section-text {
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.paralax-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 60px;
+}
+
+.paralax-header-color {
+    color: #f1ad1d;
+}
+
+.paralax {
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-bottom: 140px;
+}
+
+.section-line-long {
+    background-color: #ffffff;
+    width: 281px;
+    height: 3px;
+    border: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Main header*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.main-header {
+    background-image: url(../img/bg/bg_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 530px;
+    padding-bottom: 145px;
+    padding-left: 80px;
+    margin-bottom: 140px;
+}
+
+.main-header__title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.main-header__paragraph {
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.main-header__block-design {
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+}
+
+.block-design__white-square {
+    display: inline-block;
+    width: 150px;
+    height: 130px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.white-square__word {
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    color: #f1ad1d;
+    font-size: 54px;
+    font-weight: 700;
+    top: 25%;
+}
+
+.block-design__opacity-square {
+    display: inline-block;
+    width: 830px;
+    height: 130px;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.opacity-square__text {
+    position: relative;
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 700;
+    top: 25%;
+    padding-left: 25px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section "About"*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-about {
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*Section "Paralax Ideas"*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-paralax-ideas {
+    background-image: url(../img/bg/bg_2.png);
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section "Secret"*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-secret {
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section "Paralax Featured"*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-paralax-featured {
+    background-image: url(../img/bg/bg_3.png);
+}
+
+.section-paralax-featured__logo {
+    display: block;
+}
+
+.logo {
+    height: 30px;
+    padding-right: 50px;
+}
+
+.logo:last-child {
+    padding-right: 0;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section "Secret"*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-trust {
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Section "Paralax Check"*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.section-paralax-check {
+    background-image: url(../img/bg/bg_4.png);
+}
+
+.section-paralax-check__paragraph {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.section-paralax-check__paragraph a {
+    text-decoration: none;
+    color: #f1ad1d;
+}
+
+.section-paralax-check__url {
+    color: #f1ad1d;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 45px;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Include fonts*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+/*-
+
+
+
+
+
+
